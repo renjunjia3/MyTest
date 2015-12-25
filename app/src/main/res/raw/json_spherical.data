@@ -1,0 +1,67 @@
+{
+    "urlBase": "https://",
+    "type": "spherical",
+    "keep": "none",
+    "imageColorFormat": "RGBA8888",
+    "height": 3.0,
+    "divisions":
+    {
+        "preview": 50,
+        "panorama": 50
+    },
+    "reset":
+    {
+        "enabled": true,
+        "numberOfTouches": 3,
+        "shake":
+        {
+                "enabled": true,
+                "threshold": 1300
+        }
+    },
+    "scrolling":
+    {
+        "enabled": true,
+        "minDistanceToEnableScrolling": 30
+    },
+    "inertia":
+    {
+        "enabled": false,
+        "interval": 3
+    },
+    "accelerometer":
+    {
+        "enabled": false,
+        "interval": 0.033,
+        "sensitivity": 10.0,
+        "leftRightEnabled": true,
+        "upDownEnabled": false
+    },
+    "sensorialRotation": false,
+    "images":
+    {
+        "preload": true,
+        "preview": "https://raw.githubusercontent.com/renjunjia3/MyTest/master/app/src/main/res/drawable/png2.jpg",
+        "image": "https://raw.githubusercontent.com/renjunjia3/MyTest/master/app/src/main/res/drawable/png1.jpg",
+    },
+    "camera":
+    {
+        "keep": "none",
+        "atvMin": -90.0,
+        "atvMax": 90.0,
+        "athMin": -180.0,
+        "athMax": 180.0,
+        "reverseRotation": true,
+        "rotationSensitivity": 30.0,
+        "vLookAt": 0.0,
+        "hLookAt": 0.0,
+        "zoomLevels": 2,
+        "fovMin": 30.0,
+        "fovMax": 90.0,
+        "fovSensitivity": 30.0,
+        "fov": 90.0,
+        "fovFactor": 1.0,
+        "zoomFactor": 0.0,
+        "zoomLevel": 0
+    }
+}
